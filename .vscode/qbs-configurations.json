@@ -1,0 +1,20 @@
+[
+    {
+        "name": "release",
+        "display-name": "Release",
+        "description": "Enable optimizations.",
+        "overridden-properties": {}
+    },
+    {
+        "name": "debug",
+        "display-name": "Debug",
+        "description": "Disable optimizations.",
+        "overridden-properties": {}
+    },
+    {
+        "name": "profiling",
+        "display-name": "Profiling",
+        "description": "Enable profiling.",
+        "overridden-properties": {}
+    }
+]
