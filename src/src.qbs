@@ -1,7 +1,7 @@
 Project {
     CppApplication {
         name: "qcv"
-        // qbs.profile: "default"
+        qbs.profile: "conan_toolchain_profile"
 
         files: [
             "qcv/**/*.cpp",
