@@ -7,7 +7,7 @@ Project {
 
     references: [
         FileInfo.joinPaths(conan.generatedFilesPath, "conan_toolchain.qbs"),
-        "profiles/default.qbs",
+        // "profiles/default.qbs",
 
         "src/src.qbs",
         FileInfo.joinPaths(conan.generatedFilesPath, "conanbuildinfo.qbs"),

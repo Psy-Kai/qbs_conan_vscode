@@ -7,7 +7,7 @@ class QaDQtProjectConan(ConanFile):
     version = "0.0.0"
     settings = "os", "compiler", "build_type", "arch"
     build_requires = [
-        "qt/5.15.2",
+        # "qt/5.15.2",
         "spdlog/1.8.5",
     ]
 

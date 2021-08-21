@@ -1,7 +1,7 @@
 Project {
     CppApplication {
         name: "qcv"
-        qbs.profile: "default"
+        // qbs.profile: "default"
 
         files: [
             "qcv/**/*.cpp",
@@ -9,7 +9,7 @@ Project {
 
         cpp.cxxLanguageVersion: "c++17"
         
-        Depends { name: "Qt.core" }
+        // Depends { name: "Qt.core" }
         Depends { name: "spdlog" }
     }
 }
